@@ -34,4 +34,4 @@ ___
 
 
 
-![ss](https://github.com/himangshusingh/louv_paper/assets/71934967/32c8d064-1889-46be-8ca0-8ddad25e435c)
+![ss](https://github.com/himangshusingh/louv_paper/assets/71934967/c24a9907-68f0-4302-80c9-eb3b9bcef1c3)
