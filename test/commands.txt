@@ -1,0 +1,9 @@
+Build Command:
+
+pyinstaller --onefile --add-data "src/templates;templates" --add-data "src/static;static" --add-data "src/louvain;louvain" src/main.py
+
+navigate to louv_1 and run, don't run from src. 
+
+The directory while running this command should be: 
+
+D:\College\project\louv_1

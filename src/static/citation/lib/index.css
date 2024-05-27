@@ -1,0 +1,130 @@
+     [v-cloak] {
+         display: none;
+     }
+
+     ::-webkit-scrollbar {
+         height: 6px;
+         width: 6px;
+     }
+
+     ::-webkit-scrollbar-thumb {
+         background: #999;
+         border-radius: 1ex;
+     }
+
+     html {
+         font-size: 9pt;
+         overflow-y: auto;
+     }
+
+     .retracted,
+     .retracted a {
+         background-color: #a00;
+         color: #fff;
+     }
+
+     .retracted::after {
+         content: " (RETRACTED!)"
+     }
+
+     /* Flexible height management */
+
+     .columns {
+         padding: 0;
+         margin: 0;
+     }
+
+     .column,
+     .b-tabs:not(:last-child),
+     .columns:not(:last-child) {
+         margin-bottom: 0;
+         padding-bottom: 0;
+     }
+
+     .b-tabs .tab-content {
+         padding: 0;
+     }
+
+     .b-tabs:first-child .tab-content {
+         padding-left: 1rem;
+     }
+
+     div.content {
+         padding-top: 10px
+     }
+
+     .tab-item {
+         height: calc(100vh - 8.5rem);
+         overflow-x: hidden;
+         overflow-y: auto;
+     }
+
+     section.hero.is-fullheight {
+         min-height: 90vh;
+     }
+
+     /* Menu */
+
+     li.navbar-item {
+         padding: 0.5rem 0.2rem
+     }
+
+     .navbar-end button,
+     h2 button {
+         width: 40px;
+     }
+
+     .navbar-end .buttons .button {
+         width: 45px
+     }
+
+     h2 label.upload {
+         display: inline
+     }
+
+     /* Hoverable h2 tabs */
+
+     li h2.title {
+         color: #999999;
+     }
+
+     li.is-active h2.title,
+     li h2.title:hover {
+         color: #000000;
+     }
+
+     /* Icon replacements */
+
+     .b-table .table tr.is-selected .chevron-cell>a {
+         color: #fff !important;
+     }
+
+     .mdi-chevron-left:before {
+         content: "❰";
+         font-style: normal;
+     }
+
+     .mdi-chevron-right:before {
+         content: "❯";
+         font-style: normal;
+     }
+
+     .mdi-magnify:before {
+         content: "🔍";
+         font: 1.3em bold sans-serif;
+     }
+
+     .mdi-close:before {
+         content: "×";
+         font: 1.3em bold sans-serif;
+     }
+
+     /* Vis.js Network tooltip */
+
+     div.vis-tooltip {
+         font-size: 0.8em;
+         white-space: normal;
+         max-width: 250px;
+         word-wrap: break-word;
+         padding: 5px;
+     }

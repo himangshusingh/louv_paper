@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detect Communities</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/icons/icon_5.png') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='assets/css/detect.css') }}">
+</head>
+
+<body>
+    <div class="frame">
+        <h1>
+            Communities Detected Successfully!
+        </h1>
+    </div>
+    <p>
+        Click the button below to view the graph visualization:
+    </p>
+
+    <!-- Add this iframe to display the visualization -->
+    <div class="iframe-container">
+        <iframe src="{{ url_for('static', filename=output_file) }}"></iframe>
+    </div>
+
+
+    <form action="/view_communities" method="get">
+        <!-- <input type="submit" value="View Communities"> -->
+        <div class="button-container">
+            <button class="button">View Communities</button>
+        </div>
+    </form>
+
+    <div class="math">
+    </div>
+</body>
+</html>

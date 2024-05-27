@@ -1,0 +1,7 @@
+select {
+  appearance: none; /* Remove default styling */
+  background-image: url('path/to/arrow-icon.png'); /* Custom arrow icon */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Position the arrow icon */
+  background-size: 12px; /* Size of the arrow icon */
+}
